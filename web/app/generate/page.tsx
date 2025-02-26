@@ -1,17 +1,8 @@
-// app/generate/page.tsx
-export default function GeneratePage() {
-    return (
-      <div className="max-w-md mx-auto">
-        <h2 className="text-2xl text-primary mb-4">Generate Recipe</h2>
-        <input 
-          type="text" 
-          placeholder="Main ingredient..." 
-          className="w-full p-2 mb-4 border-2 border-primary rounded"
-        />
-        <button className="bg-secondary text-white px-6 py-3 rounded-full 
-          hover:bg-secondary-light transition-colors w-full">
-          Generate Recipe
-        </button>
-      </div>
-    );
-  }
+export default function GenerateRecipePage() {
+  return (
+    <div className="min-h-screen p-6 text-center">
+      <h1 className="text-3xl font-bold text-green-700">Generate a Recipe</h1>
+      <p className="text-gray-600 mt-2">Enter your ingredients and let AI create a recipe for you!</p>
+    </div>
+  );
+}
