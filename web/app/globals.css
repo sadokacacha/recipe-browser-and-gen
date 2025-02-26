@@ -13,7 +13,12 @@
     --foreground: #ededed;
   }
 }
-
+html {
+  font-size: 16px;
+  @screen sm {
+    font-size: 17px;
+  }
+}
 body {
   color: var(--foreground);
   background: var(--background);
