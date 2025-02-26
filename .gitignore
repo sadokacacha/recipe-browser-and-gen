@@ -1,0 +1,17 @@
+server/gpt2_model/
+server/gpt2-finetuned
+server/0.26.0
+server/preprocessed_recipeNLG.txt
+server/RecipeNLG_dataset.csv
+server/3A2M.csv
+server/merged_recipes_dataset.csv
+server/Food Ingredients and Recipe Dataset with Image Name Mapping.csv
+server/preprocessed_recipes.txt
+server/recipeai/db.sqlite3
+
+
+/dataset/
+/dataset/Food Ingredients and Recipe Dataset with Image Name Mapping.csv
+/dataset/preprocessed_recipeNLG.txt
+/dataset/RecipeNLG_dataset.csv
+/scripts/
